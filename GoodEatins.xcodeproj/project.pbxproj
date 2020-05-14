@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		38DAF1B6246C2FF100E9D640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DAF1B5246C2FF100E9D640 /* AppDelegate.swift */; };
 		38DAF1B8246C2FF100E9D640 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DAF1B7246C2FF100E9D640 /* SceneDelegate.swift */; };
-		38DAF1BA246C2FF100E9D640 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DAF1B9246C2FF100E9D640 /* ViewController.swift */; };
+		38DAF1BA246C2FF100E9D640 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DAF1B9246C2FF100E9D640 /* HomeViewController.swift */; };
 		38DAF1BD246C2FF100E9D640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DAF1BB246C2FF100E9D640 /* Main.storyboard */; };
 		38DAF1BF246C2FF300E9D640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38DAF1BE246C2FF300E9D640 /* Assets.xcassets */; };
 		38DAF1C2246C2FF300E9D640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DAF1C0246C2FF300E9D640 /* LaunchScreen.storyboard */; };
@@ -17,13 +17,16 @@
 		38DAF1CF246C316C00E9D640 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DAF1CE246C316C00E9D640 /* Recipe.swift */; };
 		38DAF1D1246C31C400E9D640 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DAF1D0246C31C400E9D640 /* DataSet.swift */; };
 		38DAF1D7246C5D2F00E9D640 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DAF1D6246C5D2F00E9D640 /* CategoryCell.swift */; };
+		38DAF1DB246D0C9F00E9D640 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DAF1DA246D0C9F00E9D640 /* RecipeViewController.swift */; };
+		38DAF1DD246D136D00E9D640 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DAF1DC246D136D00E9D640 /* RecipeCell.swift */; };
+		38DAF1DF246D2F4000E9D640 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DAF1DE246D2F4000E9D640 /* RecipeDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		38DAF1B2246C2FF100E9D640 /* GoodEatins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodEatins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38DAF1B5246C2FF100E9D640 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38DAF1B7246C2FF100E9D640 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		38DAF1B9246C2FF100E9D640 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38DAF1B9246C2FF100E9D640 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		38DAF1BC246C2FF100E9D640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38DAF1BE246C2FF300E9D640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38DAF1C1246C2FF300E9D640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +35,9 @@
 		38DAF1CE246C316C00E9D640 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		38DAF1D0246C31C400E9D640 /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
 		38DAF1D6246C5D2F00E9D640 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		38DAF1DA246D0C9F00E9D640 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		38DAF1DC246D136D00E9D640 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		38DAF1DE246D2F4000E9D640 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +75,6 @@
 				38DAF1C9246C301300E9D640 /* Model */,
 				38DAF1B5246C2FF100E9D640 /* AppDelegate.swift */,
 				38DAF1B7246C2FF100E9D640 /* SceneDelegate.swift */,
-				38DAF1B9246C2FF100E9D640 /* ViewController.swift */,
 				38DAF1BB246C2FF100E9D640 /* Main.storyboard */,
 				38DAF1BE246C2FF300E9D640 /* Assets.xcassets */,
 				38DAF1C0246C2FF300E9D640 /* LaunchScreen.storyboard */,
@@ -92,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				38DAF1D6246C5D2F00E9D640 /* CategoryCell.swift */,
+				38DAF1DC246D136D00E9D640 /* RecipeCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -99,6 +105,9 @@
 		38DAF1CB246C302900E9D640 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				38DAF1B9246C2FF100E9D640 /* HomeViewController.swift */,
+				38DAF1DA246D0C9F00E9D640 /* RecipeViewController.swift */,
+				38DAF1DE246D2F4000E9D640 /* RecipeDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -175,11 +184,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				38DAF1D1246C31C400E9D640 /* DataSet.swift in Sources */,
-				38DAF1BA246C2FF100E9D640 /* ViewController.swift in Sources */,
+				38DAF1BA246C2FF100E9D640 /* HomeViewController.swift in Sources */,
 				38DAF1B6246C2FF100E9D640 /* AppDelegate.swift in Sources */,
+				38DAF1DD246D136D00E9D640 /* RecipeCell.swift in Sources */,
 				38DAF1D7246C5D2F00E9D640 /* CategoryCell.swift in Sources */,
+				38DAF1DB246D0C9F00E9D640 /* RecipeViewController.swift in Sources */,
 				38DAF1B8246C2FF100E9D640 /* SceneDelegate.swift in Sources */,
 				38DAF1CD246C30A100E9D640 /* FoodCategory.swift in Sources */,
+				38DAF1DF246D2F4000E9D640 /* RecipeDetailViewController.swift in Sources */,
 				38DAF1CF246C316C00E9D640 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

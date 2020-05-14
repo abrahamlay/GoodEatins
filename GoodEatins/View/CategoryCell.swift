@@ -10,18 +10,18 @@ import SwiftUI
 
 class CategoryCell : UITableViewCell {
     
-    @IBOutlet weak var categoryImg: UIImageView!
-    @IBOutlet weak var categoryLabel: UILabel!
+    @IBOutlet weak var categoryImg: UIImageView?
+    @IBOutlet weak var categoryLabel: UILabel?
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        categoryImg.layer.cornerRadius = 10
+        categoryImg?.layer.cornerRadius = 10
         
     }
     
     func configureCell(foodCategory: FoodCategory){
-        categoryImg.image = UIImage(named: foodCategory.imageName)
-        categoryLabel.text = foodCategory.title
+        categoryImg?.image = UIImage(named: foodCategory.imageName)
+        categoryLabel?.text = foodCategory.title
     }
 }
 
